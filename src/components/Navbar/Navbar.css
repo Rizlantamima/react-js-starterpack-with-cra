@@ -3,29 +3,24 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #D32A31;
-    -webkit-box-shadow: 0px 16px 17px -14px rgba(0,0,0,0.38);
-    -moz-box-shadow: 0px 16px 17px -14px rgba(0,0,0,0.38);
-    box-shadow: 0px 16px 17px -14px rgba(0,0,0,0.38);
+    background-color: var(--colorPrimary);
+    line-height: 30px;
   }
   
   li {
     float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 16px;
+
   }
   
   li a {
-    display: block;
-    color: #FFF;
-    text-align: center;
-    padding: 20px 16px;
+    color: var(--colorWhite);
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
   }
   
-  li:hover {
-    background: rgb(195, 39, 44);
-  }
-
   li a:hover {
-    color: #FFF;
+    color: var(--colorAccent);
   }

@@ -3,6 +3,7 @@ import {
     Link
   } from "react-router-dom";
 import './Navbar.css';
+import Searchbox from '../Searchbox/Searchbox';
   
 export default class Navbar extends React.Component {
 
@@ -15,6 +16,9 @@ export default class Navbar extends React.Component {
                     </li>
                     <li>
                         <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                        <Searchbox />
                     </li>
                 </ul>
             </nav>
