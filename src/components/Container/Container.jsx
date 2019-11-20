@@ -4,9 +4,10 @@ import './Container.css';
 export default class Container extends React.Component {
 
     render() {
-        const {children} = this.props;
+        const {children, divClass} = this.props;
+        const classDiv = `container ${divClass}`;
         return (
-            <div className="container">
+            <div className={classDiv}>
                 {children}
             </div>
         );
