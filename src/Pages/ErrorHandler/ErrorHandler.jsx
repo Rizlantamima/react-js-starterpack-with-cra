@@ -31,7 +31,7 @@ class ErrorHandler extends React.Component {
   }
 
   render() {
-    const { hasError, error, info, errorMessage } = this.state;
+    const { hasError, errorMessage } = this.state;
     
 
     if (hasError) {
@@ -41,7 +41,7 @@ class ErrorHandler extends React.Component {
           <Container divClass='bg-white' >
             <h1>Something went wrong!</h1>
             <p style={{background:'pink',border:'solid 1px red',padding:'10px'}}>{errorMessage}</p>
-            <img src={image} style={{minHeight:'20px'}} />
+            <img alt="shomething when wrong" src={image} style={{minHeight:'20px'}} />
           </Container>
         </div>
       );

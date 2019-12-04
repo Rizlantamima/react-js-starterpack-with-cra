@@ -18,6 +18,9 @@ export default class Navbar extends React.Component {
                         <Link to="/about">About</Link>
                     </li>
                     <li>
+                        <Link to="/movies">Movie List</Link>
+                    </li>
+                    <li>
                         <Searchbox />
                     </li>
                 </ul>

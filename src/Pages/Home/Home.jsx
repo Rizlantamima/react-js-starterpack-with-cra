@@ -4,7 +4,7 @@ import Container from '../../components/Container/Container';
 
 export default class About extends React.Component {
 
-    render() {
+    render() {        
         return (
             <div>
                 <Navbar />

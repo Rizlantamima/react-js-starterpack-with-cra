@@ -3,13 +3,11 @@ import Navbar from '../../components/Navbar/Navbar';
 import Container from '../../components/Container/Container';
 
 export default class About extends React.Component {
-    constructor(props) {
-        super(props);
-        // throw Exception();
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
+    
     render() {
-        throw new Error('as');
-
         return (
             <div>
                 <Navbar />
