@@ -10,11 +10,6 @@ export default [
       exact: true
     },
     {
-      route_path: '/about',
-      component: About,
-      exact: true
-    },
-    {
       route_path: '/movies',
       component: MovieLists
     }
